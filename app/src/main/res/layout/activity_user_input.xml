@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/checkBoxLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/input_btn_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="검색 결과(아무것도 체크 하지 않으면 모든 레시피가 검색됩니다.)" />
+    <Button
+        android:id="@+id/input_btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="레시피 업로드 하기" />
+
+
+
+</LinearLayout>
